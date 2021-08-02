@@ -7,8 +7,22 @@
 
 * git add .
 * git commit -m "adicionando arquivo botao.md ao branch novo-botao"
-<em>Adicionando o arquivo <b>botao.md</b> ao Branch <b>novo-botao</b></em>
+<em>Adicionando ou Atualizando o arquivo <b>botao.md</b> ao Branch <b>novo-botao</b></em>
 
 * git push origin novo-botao
-<em>Envia para o projeto no GitHub na branch (ramificação) que estamos, novo-botao.</em>
+<em>Envia para o projeto no GitHub na branch (ramificação) que estamos trabalhando agora: <b>novo-botao</b>.</em>
+
+<h1>Juntar ramificações</h1>
+
+* git checkout main
+<em>Use git checkout main para ir para a branch (ramificação) main, que é a ramificação que deverá ser usada e irá receber a ramificação novo-botao.</em>
+
+* git merge novo-botao
+<em> Merge (juntar) a ramificação novo-botao ao em uso, main.</em>
+
+* git push origin main
+<em>Envia para o projeto no GitHub na branch (ramificação) main, e o arquivo botao.md irá aparecer na ramificação main.</em>
+
+
+
 
