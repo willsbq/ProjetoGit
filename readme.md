@@ -1,44 +1,46 @@
-Projeto inicial do git
-
-Comandos:
-
-git --version
-* Exibe versão para confirmar se a instalação está correta.
-
-git config --global user.email "you@example.com"
-ou
-git config --global user.name "Your Name"
-* acessar github pelo email lá cadastrado.
-
-Após abrir a pasta com o Git
-
-git init
-*iniciar git no repositorio main
-
-
-git add nome_arquivo.ext
-* colocar os arquivos em fila para serem comitados.
-
-git status
-* passar informação do status do git como mudanças para serem comitadas.
-
-git commit -m "Primeiro Commit"
-* lançar os arquivos.
-
-git branch -M "main"
-* mudar o nome da branch.
+<h1>Atividades no GitHub (online)</h1>
 
 * Ir para o github https://github.com/willsbq/ e criar um novo projeto no repositório com o nome "ProjetoGit".
 
-git remote add origin https://github.com/willsbq/ProjetoGit.git
-* preparar para adicionar o arquivo com nome origin no projeto criado no GitHub.
+<h1>Projeto inicial do Git</h1>
 
-git push -u origin main
-* enviar origin para main
+<h2>Comandos</h2>
 
+* git --version
+<em>Exibe versão para confirmar se a instalação está correta.</em>
 
+* git config --global user.email "you@example.com"
+ou
+git config --global user.name "Your Name"
+<em>Acessar GitHub pelo email de cadastrado.</em>
 
-resumo
+<h2>Após abrir a pasta com o Git</h2>
+
+* git init
+<em>Iniciar git no repositorio <b>main</b> (ramificação principal).</em>
+
+* git branch -M "main"
+<em>Mudar o nome da Branch (ramificação, ramo).</em>
+
+* git add nome_arquivo.ext
+<em>Colocar os arquivos em fila para serem despachados(Commit).</em>
+
+* git status
+<em>Passar informação do estado do Git.</em>
+
+* git commit -m "Primeiro Commit"
+<em>Exportar os arquivos e acrescentar uma mensagem relacionada aos despachos.</em>
+
+* git remote add origin https://github.com/willsbq/ProjetoGit.git
+<em>Preparar para adicionar o arquivo com apelido "origin" no projeto criado no GitHub.</em>
+
+* git push -u origin main
+<em>Enviar origin para main</em>
+
+* clear 
+<em>Limpar o Bash.</em>
+
+<h1>Resumo</h1>
 
 …or create a new repository on the command line
 echo "# ProjetoGit" >> README.md
@@ -54,17 +56,16 @@ git remote add origin https://github.com/willsbq/ProjetoGit.git
 git branch -M main
 git push -u origin main
 
-clear 
-* limpar o Bash
 
-VERSIONAMENTO DE FATO
-criar outro arquivo no KodeStudio para informar os links de ajuda. "LinksVideos.md".
 
-git add .
-* adicionar todos os arquivos e ter um versionamento.
+<h1>VERSIONAMENTO DE FATO</h1>
+<em>Criar outro arquivo no KodeStudio para informar os links de ajuda. "LinksVideos.md".</em>
 
-git commit -m "Info no readme e adição do arquivo com links de vídeos"
-* guardar os arquivos e passar informação do commit para versão
+* git add .
+<em>Colocar todos os arquivos em fila para ter um versionamento.</em>
 
-git push origin main
-* enviar para o GitHub no repositório com o apelido origin.
+* git commit -m "Info no readme e adição do arquivo com links de vídeos"
+<em>Despachar os arquivos e passar informação relacionada com a exportação.</em>
+
+* git push origin main
+<em>Enviar para o GitHub no repositório com o apelido origin, que já foi adicionado com o endereço do projeto no GitHub, sem necessidade de informá-lo novamente.</em>
