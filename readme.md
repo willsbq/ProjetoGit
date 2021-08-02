@@ -62,3 +62,9 @@ criar outro arquivo no KodeStudio para informar os links de ajuda. "LinksVideos.
 
 git add .
 * adicionar todos os arquivos e ter um versionamento.
+
+git commit -m "Info no readme e adição do arquivo com links de vídeos"
+* guardar os arquivos e passar informação do commit para versão
+
+git push origin main
+* enviar para o GitHub no repositório com o apelido origin.
